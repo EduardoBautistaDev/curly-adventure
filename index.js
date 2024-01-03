@@ -9,6 +9,7 @@ app.use(express.static("public"));
 
 app.get("/", async (req, res) => {
   //Write your code here.
+  console.log(req.body);
 });
 
 app.listen(port, () => {
